@@ -1,0 +1,9 @@
+[1/6] Running utility command for nvs_uf2_bin
+Copying factory_nvs.bin to destination if it is different...
+[2/6] cmd.exe /C "cd /D C:\chatgpt\esp-box\examples\chatgpt_demo\build\esp-idf\esptool_py && C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.2.2/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/chatgpt/esp-box/examples/chatgpt_demo/build/partition_table/partition-table.bin C:/chatgpt/esp-box/examples/chatgpt_demo/build/chatgpt_demo.bin"
+Warning: 1/2 app partitions are too small for binary chatgpt_demo.bin size 0x374130:
+  - Part 'ota_0' 0/16 @ 0x700000 size 0x200000 (overflow 0x174130)
+[3/6] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\chatgpt\esp-box\examples\chatgpt_demo\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.2.2/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 C:/chatgpt/esp-box/examples/chatgpt_demo/build/bootloader/bootloader.bin"
+Bootloader binary size 0x5800 bytes. 0x2800 bytes (31%) free.
+[4/4] cmd.exe /C "cd /D C:\chatgpt\esp-box\examples\chatgpt_demo\build\esp-idf\main && C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.2.2/components/spiffs/spiffsgen.py 0x200000 C:/chatgpt/esp-box/examples/chatgpt_demo/spiffs C:/chatgpt/esp-box/examples/chatgpt_demo/build/storage.bin --page-size=256 --obj-name-len=32 --meta-len=4 --use-magic --use-magic-len"

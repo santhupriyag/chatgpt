@@ -1,0 +1,74 @@
+-- IDF_TARGET is not set, guessed 'esp32s3' from sdkconfig 'C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/sdkconfig'
+-- Found Git: C:/Espressif/tools/idf-git/2.44.0/cmd/git.exe (found version "2.44.0.windows.1") 
+-- ccache will be used for faster recompilation
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/Espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32s3
+Processing 17 dependencies:
+[1/17] espressif/button (3.2.3)
+[2/17] espressif/cmake_utilities (0.5.3)
+[3/17] espressif/esp-box (3.0.5)
+[4/17] espressif/esp-box-3 (1.1.3)
+[5/17] espressif/esp-box-lite (2.0.4)
+[6/17] espressif/esp_codec_dev (1.1.0)
+[7/17] espressif/esp_lcd_ili9341 (1.2.0)
+[8/17] espressif/esp_lcd_touch (1.1.2)
+[9/17] espressif/esp_lcd_touch_gt911 (1.1.1)
+[10/17] espressif/esp_lcd_touch_tt21100 (1.1.0)
+[11/17] espressif/esp_lvgl_port (1.4.0)
+[12/17] espressif/esp_tinyuf2 (0.2.2)
+[13/17] espressif/icm42670 (1.0.0)
+[14/17] idf (5.2.2)
+[15/17] leeebo/esp-inih (0.0.2)
+[16/17] leeebo/tinyusb_src (0.16.0~5)
+[17/17] lvgl/lvgl (8.4.0)
+-- use sdkconfig
+-- PLATFORM ESP32_S3_BOX_3.
+-- Project sdkconfig file C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/sdkconfig
+Loading defaults file C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/sdkconfig.defaults...
+-- Compiler supported targets: xtensa-esp-elf
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: C:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe (found version "3.11.2") found components: Interpreter 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "factory_nvs" version: v0.5.0-79-g5e4a44f-dirty
+-- Adding linker script C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.2.2/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- ESP_TINYUF2: 0.2.2
+-- BUTTON: 3.2.3
+-- ESP_LCD_ILI9341: 1.2.0
+-- use sdkconfig
+-- PLATFORM ESP32_S3_BOX_3.
+-- Components: app_trace app_update bootloader bootloader_support bsp bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump espressif__button espressif__cmake_utilities espressif__esp-box espressif__esp-box-3 espressif__esp-box-lite espressif__esp_codec_dev espressif__esp_lcd_ili9341 espressif__esp_lcd_touch espressif__esp_lcd_touch_gt911 espressif__esp_lcd_touch_tt21100 espressif__esp_lvgl_port espressif__esp_tinyuf2 espressif__icm42670 esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json leeebo__esp-inih leeebo__tinyusb_src log lvgl__lvgl lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport touch_element ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: C:/Espressif/frameworks/esp-idf-v5.2.2/components/app_trace C:/Espressif/frameworks/esp-idf-v5.2.2/components/app_update C:/Espressif/frameworks/esp-idf-v5.2.2/components/bootloader C:/Espressif/frameworks/esp-idf-v5.2.2/components/bootloader_support C:/chatgpt/esp-box/components/bsp C:/Espressif/frameworks/esp-idf-v5.2.2/components/bt C:/Espressif/frameworks/esp-idf-v5.2.2/components/cmock C:/Espressif/frameworks/esp-idf-v5.2.2/components/console C:/Espressif/frameworks/esp-idf-v5.2.2/components/cxx C:/Espressif/frameworks/esp-idf-v5.2.2/components/driver C:/Espressif/frameworks/esp-idf-v5.2.2/components/efuse C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp-tls C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_adc C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_app_format C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_bootloader_format C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_coex C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_common C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_eth C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_event C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_gdbstub C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_hid C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_http_client C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_http_server C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_https_ota C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_https_server C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_hw_support C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_lcd C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_local_ctrl C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_mm C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_netif C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_netif_stack C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_partition C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_phy C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_pm C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_psram C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_rom C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_timer C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_wifi C:/Espressif/frameworks/esp-idf-v5.2.2/components/espcoredump C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/managed_components/espressif__button C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/managed_components/espressif__cmake_utilities C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/managed_components/espressif__esp-box C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/managed_components/espressif__esp-box-3 C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/managed_components/espressif__esp-box-lite C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/managed_components/espressif__esp_codec_dev C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/managed_components/espressif__esp_lcd_ili9341 C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/managed_components/espressif__esp_lcd_touch C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/managed_components/espressif__esp_lcd_touch_gt911 C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/managed_components/espressif__esp_lcd_touch_tt21100 C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/managed_components/espressif__esp_lvgl_port C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/managed_components/espressif__esp_tinyuf2 C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/managed_components/espressif__icm42670 C:/Espressif/frameworks/esp-idf-v5.2.2/components/esptool_py C:/Espressif/frameworks/esp-idf-v5.2.2/components/fatfs C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos C:/Espressif/frameworks/esp-idf-v5.2.2/components/hal C:/Espressif/frameworks/esp-idf-v5.2.2/components/heap C:/Espressif/frameworks/esp-idf-v5.2.2/components/http_parser C:/Espressif/frameworks/esp-idf-v5.2.2/components/idf_test C:/Espressif/frameworks/esp-idf-v5.2.2/components/ieee802154 C:/Espressif/frameworks/esp-idf-v5.2.2/components/json C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/managed_components/leeebo__esp-inih C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/managed_components/leeebo__tinyusb_src C:/Espressif/frameworks/esp-idf-v5.2.2/components/log C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/managed_components/lvgl__lvgl C:/Espressif/frameworks/esp-idf-v5.2.2/components/lwip C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/main C:/Espressif/frameworks/esp-idf-v5.2.2/components/mbedtls C:/Espressif/frameworks/esp-idf-v5.2.2/components/mqtt C:/Espressif/frameworks/esp-idf-v5.2.2/components/newlib C:/Espressif/frameworks/esp-idf-v5.2.2/components/nvs_flash C:/Espressif/frameworks/esp-idf-v5.2.2/components/nvs_sec_provider C:/Espressif/frameworks/esp-idf-v5.2.2/components/openthread C:/Espressif/frameworks/esp-idf-v5.2.2/components/partition_table C:/Espressif/frameworks/esp-idf-v5.2.2/components/perfmon C:/Espressif/frameworks/esp-idf-v5.2.2/components/protobuf-c C:/Espressif/frameworks/esp-idf-v5.2.2/components/protocomm C:/Espressif/frameworks/esp-idf-v5.2.2/components/pthread C:/Espressif/frameworks/esp-idf-v5.2.2/components/sdmmc C:/Espressif/frameworks/esp-idf-v5.2.2/components/soc C:/Espressif/frameworks/esp-idf-v5.2.2/components/spi_flash C:/Espressif/frameworks/esp-idf-v5.2.2/components/spiffs C:/Espressif/frameworks/esp-idf-v5.2.2/components/tcp_transport C:/Espressif/frameworks/esp-idf-v5.2.2/components/touch_element C:/Espressif/frameworks/esp-idf-v5.2.2/components/ulp C:/Espressif/frameworks/esp-idf-v5.2.2/components/unity C:/Espressif/frameworks/esp-idf-v5.2.2/components/usb C:/Espressif/frameworks/esp-idf-v5.2.2/components/vfs C:/Espressif/frameworks/esp-idf-v5.2.2/components/wear_levelling C:/Espressif/frameworks/esp-idf-v5.2.2/components/wifi_provisioning C:/Espressif/frameworks/esp-idf-v5.2.2/components/wpa_supplicant C:/Espressif/frameworks/esp-idf-v5.2.2/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/build

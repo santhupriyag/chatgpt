@@ -1,0 +1,6 @@
+TinyUSB path: C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/managed_components/leeebo__tinyusb_src
+TinyUSB includes: C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/managed_components/leeebo__tinyusb_src;C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/managed_components/leeebo__tinyusb_src/src
+TinyUSB sources: C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/managed_components/leeebo__tinyusb_src/src/tusb.c;C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/managed_components/leeebo__tinyusb_src/src/common/tusb_fifo.c;C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/managed_components/leeebo__tinyusb_src/src/device/usbd.c;C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/managed_components/leeebo__tinyusb_src/src/device/usbd_control.c;C:/chatgpt/esp-box/examples/chatgpt_demo/factory_nvs/managed_components/leeebo__tinyusb_src/src/portable/synopsys/dwc2/dcd_dwc2.c
+TinyUSB compile options: -Wno-format;-DCFG_TUSB_OS=OPT_OS_FREERTOS;-DCFG_TUSB_MCU=OPT_MCU_ESP32S3
+Project name: factory_nvs
+Project version: v0.5.0-79-g5e4a44f-dirty
